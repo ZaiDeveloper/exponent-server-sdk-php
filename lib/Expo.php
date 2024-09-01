@@ -11,7 +11,7 @@ class Expo
     /**
      * The Expo Api Url that will receive the requests
      */
-    const EXPO_API_URL = 'https://exp.host/--/api/v2/push/send';
+    const EXPO_API_URL = 'https://exp.host/--/api/v2/push/send?useFcmV1=true';
 
     /**
      * cURL handler
